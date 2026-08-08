@@ -6,7 +6,7 @@ A cookie cutter repository for setting up Python libraries/repositories.
 ## Quickstart
 
 ```
-uvx cookiecutter https://github.com/cmalinmayor/pycookie/
+uvx cookiecutter https://github.com/JaneliaSciComp/janelia-pycookie/
 ```
 
 ## What you get
