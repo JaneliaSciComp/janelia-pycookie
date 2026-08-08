@@ -1,0 +1,26 @@
+{
+    "full_name": "",
+    "email": "",
+    "github_owner": "JaneliaSciComp",
+    "project_name": "",
+    "project_slug": "{{ (cookiecutter.project_name or '_unset').lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "package description.",
+    "minimum_python_version": ["3.11", "3.12", "3.13"],
+    "copyright_holder": "Howard Hughes Medical Institute, Janelia Research Campus",
+    "year": "2026",
+    "host_docs_on_github_io": ["yes", "no"],
+    "publish_to_pypi": ["yes", "no"],
+    "__prompts__": {
+        "full_name": "Package author's name (used in pyproject.toml metadata)",
+        "email": "Package author's email (used in pyproject.toml metadata)",
+        "github_owner": "GitHub user or organization the repo will live under",
+        "project_name": "Project name, as it will appear on PyPI (e.g. my-package)",
+        "project_slug": "Import name (must be a valid Python identifier)",
+        "project_short_description": "One-line description of the project",
+        "minimum_python_version": "Oldest Python version to support (sets requires-python and the CI matrix)",
+        "copyright_holder": "Copyright holder named in the BSD 3-Clause LICENSE",
+        "year": "Copyright year in the LICENSE",
+        "host_docs_on_github_io": "Host docs on github.io (public repos only)? 'no' omits mkdocs and the docs workflow",
+        "publish_to_pypi": "Publish to PyPI on tag? 'no' still creates a GitHub release"
+    }
+}
