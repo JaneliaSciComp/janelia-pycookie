@@ -1,6 +1,6 @@
 # pycookie
 
-A cookie cutter repository for setting up Python libraries/repositories.
+A cookie cutter repository for setting up Python libraries/repositories. This standalone repo is **ARCHIVED** in favor of an inline python directory in [JaneliaSciComp/janelia-cookiecutter](https://github.com/JaneliaSciComp/janelia-cookiecutter/).
 
 
 ## Quickstart
